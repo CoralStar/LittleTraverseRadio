@@ -29,12 +29,12 @@ img.emoji {
 }</style>
 	<link rel="stylesheet" id="wp-block-library-css" href="https://coralstar.github.io/LittleTraverseRadio/wp-includes/css/dist/block-library/style.min.css?ver=5.8" type="text/css" media="all">
 <style id="wp-block-library-theme-inline-css" type="text/css">#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}</style>
+<link rel="stylesheet" id="contact-form-7-css" href="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.2" type="text/css" media="all">
 <link rel="stylesheet" id="bwg_fonts-css" href="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/photo-gallery/css/bwg-fonts/fonts.css?ver=0.0.1" type="text/css" media="all">
 <link rel="stylesheet" id="sumoselect-css" href="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/photo-gallery/css/sumoselect.min.css?ver=3.3.24" type="text/css" media="all">
 <link rel="stylesheet" id="mCustomScrollbar-css" href="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.min.css?ver=3.1.5" type="text/css" media="all">
 <link rel="stylesheet" id="bwg_googlefonts-css" href="https://fonts.googleapis.com/css?family=Ubuntu&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic" type="text/css" media="all">
 <link rel="stylesheet" id="bwg_frontend-css" href="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/photo-gallery/css/styles.min.css?ver=1.5.81" type="text/css" media="all">
-<link rel="stylesheet" id="wpforms-full-css" href="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/wpforms-lite/assets/css/wpforms-full.min.css?ver=1.6.8.1" type="text/css" media="all">
 <link rel="stylesheet" id="genericons-css" href="https://coralstar.github.io/LittleTraverseRadio/wp-content/themes/rock-star/css/genericons/genericons.css?ver=3.4.1" type="text/css" media="all">
 <link rel="stylesheet" id="rock-star-style-css" href="https://coralstar.github.io/LittleTraverseRadio/wp-content/themes/rock-star/style.css?ver=1.7.3" type="text/css" media="all">
 <link rel="stylesheet" id="rock-star-fonts-css" href="//fonts.googleapis.com/css?family=Courgette&#038;ver=1.7.3" type="text/css" media="all">
@@ -90,7 +90,25 @@ var screenReaderText = {"expand":"expand child menu","collapse":"collapse child 
 
 .main-navigation a:hover, .main-navigation a:focus {
     color: black;
-	}</style>
+	}
+	
+	button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	background-color: grey;
+	border-color: black;
+	color: #111;
+	box-shadow: none;
+}</style>
 		<!-- Little Traverse Radio inline CSS Styles -->
 <style type="text/css" media="screen">.site-title a, .site-description { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); }</style>
 </head>
@@ -151,30 +169,33 @@ var screenReaderText = {"expand":"expand child menu","collapse":"collapse child 
 <p>Shoot us an email for song requests, questions, reviews, and more! We want to hear from you!</p>
 
 
-<div class="wpforms-container wpforms-container-full" id="wpforms-48141"><form id="wpforms-form-48141" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="48141" method="post" enctype="multipart/form-data" action="https://coralstar.github.io/LittleTraverseRadio/home/contact-us/" data-token="461b4a7edb16a281a78d706590bb487d">
-<noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
-<div class="wpforms-field-container">
-<div id="wpforms-48141-field_0-container" class="wpforms-field wpforms-field-name" data-field-id="0">
-<label class="wpforms-field-label" for="wpforms-48141-field_0">Name <span class="wpforms-required-label">*</span></label><div class="wpforms-field-row wpforms-field-medium">
-<div class="wpforms-field-row-block wpforms-first wpforms-one-half">
-<input type="text" id="wpforms-48141-field_0" class="wpforms-field-name-first wpforms-field-required" name="wpforms[fields][0][first]" required><label for="wpforms-48141-field_0" class="wpforms-field-sublabel after ">First</label>
+
+<div class="wp-block-contact-form-7-contact-form-selector"><div role="form" class="wpcf7" id="wpcf7-f48156-p47821-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response">
+<p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
 </div>
-<div class="wpforms-field-row-block wpforms-one-half">
-<input type="text" id="wpforms-48141-field_0-last" class="wpforms-field-name-last wpforms-field-required" name="wpforms[fields][0][last]" required><label for="wpforms-48141-field_0-last" class="wpforms-field-sublabel after ">Last</label>
+<form action="https://coralstar.github.io/LittleTraverseRadio/home/contact-us/#wpcf7-f48156-p47821-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="48156">
+<input type="hidden" name="_wpcf7_version" value="5.4.2">
+<input type="hidden" name="_wpcf7_locale" value="en_US">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f48156-p47821-o1">
+<input type="hidden" name="_wpcf7_container_post" value="47821">
+<input type="hidden" name="_wpcf7_posted_data_hash" value="">
 </div>
-</div>
-</div>
-<div id="wpforms-48141-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1">
-<label class="wpforms-field-label" for="wpforms-48141-field_1">Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-48141-field_1" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][1]" required>
-</div>
-<div id="wpforms-48141-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2">
-<label class="wpforms-field-label" for="wpforms-48141-field_2">Song Request or Message <span class="wpforms-required-label">*</span></label><textarea id="wpforms-48141-field_2" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][2]" required></textarea>
-</div>
-</div>
-<div class="wpforms-submit-container">
-<input type="hidden" name="wpforms[id]" value="48141"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="47821"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-48141" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Submit">Submit</button><img src="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="">
-</div>
-</form></div>  <!-- .wpforms-container -->
+<p><label> Your name<br>
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span> </label></p>
+<p><label> Your email<br>
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false"></span> </label></p>
+<p><label> Subject<br>
+    <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span> </label></p>
+<p><label> Your message (optional)<br>
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label></p>
+<p><input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit"></p>
+<div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div></div>
+
 
 
 <div class="wp-block-image"><figure class="aligncenter size-full is-resized"><img loading="lazy" src="https://coralstar.github.io/LittleTraverseRadio/wp-content/uploads/2021/05/katscodingcornerlogo.png" alt="" class="wp-image-47509" width="272" height="66"><figcaption>Website made by Kat&#8217;s Coding Corner</figcaption></figure></div>
@@ -214,25 +235,25 @@ var screenReaderText = {"expand":"expand child menu","collapse":"collapse child 
 		<div class="backtotop genericon genericon-collapse">
 			<span class="screen-reader-text">Scroll Up</span>
 		</div>
-<!-- .backtotop --><script type="text/javascript" id="pgc-simply-gallery-plugin-lightbox-script-js-extra">
+<!-- .backtotop --><script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/coralstar.github.io\/LittleTraverseRadio\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.2" id="contact-form-7-js"></script>
+<script type="text/javascript" id="pgc-simply-gallery-plugin-lightbox-script-js-extra">
 /* <![CDATA[ */
 var PGC_SGB_LIGHTBOX = {"lightboxPreset":"","postType":"page","lightboxSettigs":""};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/simply-gallery-block/plugins/pgc_sgb_lightbox.min.js?ver=2.2.1" id="pgc-simply-gallery-plugin-lightbox-script-js"></script>
+<script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/simply-gallery-block/plugins/pgc_sgb_lightbox.min.js?ver=2.2.2" id="pgc-simply-gallery-plugin-lightbox-script-js"></script>
 <script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-content/themes/rock-star/js/navigation.min.js?ver=20120206" id="rock-star-navigation-js"></script>
 <script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-content/themes/rock-star/js/skip-link-focus-fix.min.js?ver=20130115" id="rock-star-skip-link-focus-fix-js"></script>
 <script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-content/themes/rock-star/js/fitvids.min.js?ver=1.1" id="jquery-fitvids-js"></script>
 <script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-content/themes/rock-star/js/scrollup.min.js?ver=20072014" id="rock-star-scrollup-js"></script>
 <script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-includes/js/wp-embed.min.js?ver=5.8" id="wp-embed-js"></script>
-<script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/wpforms-lite/assets/js/jquery.validate.min.js?ver=1.19.0" id="wpforms-validation-js"></script>
-<script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/wpforms-lite/assets/js/mailcheck.min.js?ver=1.1.2" id="wpforms-mailcheck-js"></script>
-<script type="text/javascript" src="https://coralstar.github.io/LittleTraverseRadio/wp-content/plugins/wpforms-lite/assets/js/wpforms.js?ver=1.6.8.1" id="wpforms-js"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var wpforms_settings = {"val_required":"This field is required.","val_email":"Please enter a valid email address.","val_email_suggestion":"Did you mean {suggestion}?","val_email_suggestion_title":"Click to accept this suggestion.","val_email_restricted":"This email address is not allowed.","val_number":"Please enter a valid number.","val_number_positive":"Please enter a valid positive number.","val_confirm":"Field values do not match.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words.","val_recaptcha_fail_msg":"Google reCAPTCHA verification failed, please try again later.","val_empty_blanks":"Please fill out all blanks.","uuid_cookie":"","locale":"en","wpforms_plugin_url":"https:\/\/coralstar.github.io\/LittleTraverseRadio\/wp-content\/plugins\/wpforms-lite\/","gdpr":"","ajaxurl":"https:\/\/coralstar.github.io\/LittleTraverseRadio\/wp-admin\/admin-ajax.php","mailcheck_enabled":"1","mailcheck_domains":[],"mailcheck_toplevel_domains":["dev"],"is_ssl":""}
-/* ]]> */
-</script>
 
 </body>
 </html>
